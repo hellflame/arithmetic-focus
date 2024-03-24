@@ -1,8 +1,6 @@
 package model
 
-import (
-	"arithmetic/utils"
-)
+import "github.com/hellflame/arithmetic-focus/utils"
 
 type Record struct {
 	Expression string

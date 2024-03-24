@@ -1,9 +1,9 @@
 package model
 
 import (
-	"arithmetic/utils"
 	"path"
 
+	"github.com/hellflame/arithmetic-focus/utils"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/mitchellh/go-homedir"

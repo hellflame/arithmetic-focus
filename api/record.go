@@ -1,8 +1,7 @@
 package api
 
 import (
-	"arithmetic/model"
-
+	"github.com/hellflame/arithmetic-focus/model"
 	"github.com/labstack/echo/v4"
 )
 

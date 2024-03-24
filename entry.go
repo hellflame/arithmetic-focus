@@ -1,10 +1,11 @@
 package main
 
 import (
-	"arithmetic/api"
-	"arithmetic/utils"
 	"embed"
 	"fmt"
+
+	"github.com/hellflame/arithmetic-focus/api"
+	"github.com/hellflame/arithmetic-focus/utils"
 )
 
 //go:embed pages

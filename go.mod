@@ -1,4 +1,4 @@
-module arithmetic
+module github.com/hellflame/arithmetic-focus
 
 go 1.19
 
