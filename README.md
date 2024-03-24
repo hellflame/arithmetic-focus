@@ -4,10 +4,18 @@ When you find yourself hard to keep focus, try to solve some simple arithmetic p
 
 Whether your answer is right or wrong, your trying to think matters.
 
+## Install
+
+```bash
+go install github.com/hellflame/arithmetic-focus@latest
+```
+
+An executable named `arithmetic-focus` will be install at `$GOPATH/bin`
+
 ## Usage
 
 ```
-usage: arithmetic [--help] [--host HOST] [--port PORT] [--no-browser]
+usage: arithmetic-focus [--help] [--host HOST] [--port PORT] [--no-browser]
 
 start arithmetic server
 
