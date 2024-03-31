@@ -22,7 +22,7 @@ func ParseArgs() *args {
 		WithHint: true, WithColor: true, DisableDefaultShowHelp: true,
 	})
 
-	host := parser.String("", "host", &argparse.Option{Default: "0.0.0.0", Help: "host address"})
+	host := parser.String("", "host", &argparse.Option{Default: "127.0.0.1", Help: "host address"})
 	port := parser.Int("p", "port", &argparse.Option{Default: "8080", Help: "listen port"})
 
 	noBrowser := parser.Flag("", "no-browser", &argparse.Option{Help: "don't open browser"})
