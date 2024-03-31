@@ -24,6 +24,7 @@ func bindPages(pages *embed.FS) {
 		if e != nil {
 			return echo.NewHTTPError(404, e)
 		}
+		defer f.Close()
 		contentType := mime.TypeByExtension(filepath.Ext(target))
 		if contentType == "" {
 			contentType = "application/octet-stream"
