@@ -4,6 +4,8 @@ When you find yourself hard to keep focus, try to solve some simple arithmetic p
 
 Whether your answer is right or wrong, your trying to think matters.
 
+![](./images/preview.png)
+
 ## Install
 
 ```bash
